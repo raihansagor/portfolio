@@ -1,0 +1,106 @@
+.intro{
+    display:flex;
+    height: 77vh;
+    margin-top: 5rem;
+    padding: 0.5rem 3.5rem;
+}
+.i-left{
+    display:flex;
+    position:relative;
+    flex:1;
+    flex-direction: column;
+    gap:2rem;
+}
+.i-name{
+    display:flex;
+    flex-direction: column;
+   
+}
+.i-name>:nth-child(1){
+    color:var(--black);
+    font-weight: bold;
+    font-size: 3rem;
+}
+.i-name>:nth-child(2){
+    color:rgb(237, 101, 237);
+    font-weight: bold;
+    font-size: 3rem;
+    
+}
+.i-name>:nth-child(3){
+    color:var(--gray);
+    font-weight: 300;
+    font-size: 20px;
+    
+}
+.i-button{
+    height:2rem;
+    width:6rem;
+}
+.i-logo{
+    height:5rem;
+    width:100%;
+    display:flex;   
+    object-fit: cover;
+    /* overflow: hidden; */
+    /* position: relative; */
+    flex-direction: row;
+    gap:1rem;
+}
+.facebook{
+    height:2rem;
+    width:2rem;
+    cursor:pointer;
+    
+    
+}
+.facebook:hover{
+    color:rgb(5, 177, 245);
+    
+
+}
+.twitter{
+    height:2rem;
+    width:2rem;
+    cursor:pointer;
+}
+.twitter:hover{
+    color:rgb(5, 177, 245);
+}
+.github{
+    height:2rem;
+    width:2rem;
+    cursor:pointer;
+}
+.github:hover{
+    color:rgb(5, 177, 245);
+    
+}
+.i-right{
+    flex:1;
+    position:relative;
+}
+.i-right > * {
+    position: absolute;
+    z-index: 1;
+  }
+
+ .vector{
+    width:100%;
+    height:100%;
+ } 
+
+
+
+
+
+
+
+
+
+
+
+.i-right{
+    display:flex;
+    flex:1;
+}

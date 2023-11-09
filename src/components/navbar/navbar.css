@@ -14,6 +14,7 @@
   .n-name{
     font-weight: bold;
     font-size: 1.5rem;
+    color:var(--black)
   }
   .n-right{
     display: flex;
@@ -36,6 +37,7 @@
   }
   .n-button{
     flex:2;
+    font-weight: bold;
   }
   
   
