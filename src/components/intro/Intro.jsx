@@ -6,8 +6,7 @@ import {
   FaTwitter,
   
 } from "react-icons/fa";
-// import Vector1 from '../../assets/Vector1.png';
-// import boy from '../../assets/boy.png';
+
 import vector from '../../assets/vector.png';
 import raihan2 from '../../assets/raihan2.png';
 const Intro = () => {
@@ -35,7 +34,7 @@ const Intro = () => {
         <div className="i-right">
            
             <img className='vector' src={vector} alt="" />
-            <img src={raihan2} alt="" />
+            <img className='image' src={raihan2} alt="" />
           
         </div>
     </div>
