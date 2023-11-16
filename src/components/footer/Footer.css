@@ -1,0 +1,51 @@
+.footer{
+      
+    position: relative;
+    
+      
+    
+}
+.wave{
+  height: 100%;
+  width:100%;
+  margin-top: -7rem;
+}
+ .f-content {
+    position: absolute;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -7rem; 
+    width: 100%;
+    color:rgb(249, 246, 246);
+    
+  } 
+  .f-icons {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+   
+  }
+  @media screen and (max-width: 480px){
+    .footer{
+        padding: 0;
+        
+        
+    }
+    .f-content{
+      
+      margin-top: -4.3rem;
+    }
+    
+    
+  }
+  
+  
+   
+  
+  @media screen and (max-width: 480px){
+    .f-content{
+      transform: scale(.5);
+    }
+  }

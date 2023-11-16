@@ -1,9 +1,11 @@
 import React from 'react'
 import  './Intro.css'
+import { Link } from "react-scroll";
 import { ImGithub } from "react-icons/im";
 import {
   FaFacebookF,
-  FaTwitter,
+ 
+  FaLinkedin,
   
 } from "react-icons/fa";
 
@@ -19,14 +21,25 @@ const Intro = () => {
                 <span> Frontend Developer with mid level of experience in web designing
                 and development, producting the Quality work</span>
             </div>
-            <button className="button i-button">Hire me</button>
+            <button className="button i-button">
+            <Link to="contact" spy={true} smooth={true}>
+                Hire me
+              </Link>
+            </button>
             <div className="i-logo">
               <a href="https://www.facebook.com/raihan.7189">
               <FaFacebookF className="facebook"/>
               </a>
+              <a href="https://www.linkedin.com/in/abu-raihan7189">
+              <FaLinkedin className='linkedin'/>
+              </a>
               
-              <FaTwitter className='twitter'/>
+              
+              <a href="https://github.com/raihansagor">
               <ImGithub className="github"/>
+              </a>
+
+             
               
               
             </div>

@@ -39,5 +39,9 @@
     flex:2;
     font-weight: bold;
   }
-  
+  @media screen and (max-width: 480px) {
+    .n-list {
+      display: none;
+    }
+  }
   

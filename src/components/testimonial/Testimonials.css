@@ -1,0 +1,70 @@
+.t-wrapper{
+    padding: 0.3rem 3.5rem;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+    flex-direction: column;
+    gap: 2rem;
+    position: relative;
+}
+.t-heading{
+   align-items: center;
+}
+.t-heading>*{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.t-heading span:nth-of-type(2){
+    color: rgb(246, 104, 246);
+}
+.testimonial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2rem;
+    width: 30rem;
+    height: 12rem;
+    background: rgba(255, 255, 255, 0.26);
+    border: 7px solid rgb(241, 103, 241);
+    box-shadow: var(--boxShadow);
+    border-radius: 20px;
+}
+.testimonial>img{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 100%;
+}
+.testimonial>span{
+    color: var(--gray);
+}
+
+
+/* slider */
+.t-wrapper .swiper {
+    width: 100%;
+    height: 70%;
+}
+.t-wrapper .swiper-slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.t-wrapper .swiper-pagination-bullet-active{
+    background: rgb(218, 54, 218);
+}
+
+@media screen and (max-width: 480px){
+    .t-wrapper{
+        padding: 0;
+        position: relative;
+        
+    }
+    
+    .testimonial>img{
+        width: 70px;
+        height: 70px;
+    }
+  }

@@ -51,29 +51,32 @@
     height:2rem;
     width:2rem;
     cursor:pointer;
+    color:purple;
     
     
 }
 .facebook:hover{
-    color:rgb(5, 177, 245);
+    color:#0866FF;
     
 
 }
-.twitter{
+.linkedin{
     height:2rem;
     width:2rem;
     cursor:pointer;
+    color:purple;
 }
-.twitter:hover{
-    color:rgb(5, 177, 245);
+.linkedin:hover{
+    color:#0A66C2;
 }
 .github{
     height:2rem;
     width:2rem;
     cursor:pointer;
+    color:purple;
 }
 .github:hover{
-    color:rgb(5, 177, 245);
+    color:rgb(14, 14, 14);
     
 }
 .i-right{
@@ -91,20 +94,41 @@
  } 
  .image{
     height:100%;
+   
     padding-left:5rem;
  }
-
-
-
-
-
-
-
-
-
 
 
 .i-right{
     display:flex;
     flex:1;
 }
+@media screen and (max-width: 480px) {
+    .intro {
+      flex-direction: column;
+      gap: 5rem;
+      height: 64rem;
+      position:relative;
+      display:flex;
+    }
+    .i-right{
+        display:flex;
+        position:relative;
+    }
+    
+    .i-right > * {
+        position: absolute;
+        
+      }
+      .i-right {
+        transform: scale(0.8);
+        left: -4rem;
+      }
+      .image{
+        left: -8rem;
+      }
+      
+    
+    
+    
+  }
